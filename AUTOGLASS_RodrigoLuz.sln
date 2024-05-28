@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AUTOGLASS_RodrigoLuz.API", "AUTOGLASS_RodrigoLuz.API\AUTOGLASS_RodrigoLuz.API.csproj", "{26FA0838-BD42-46C3-B4DE-DB018C0039B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AUTOGLASS_RodrigoLuz.Domain", "AUTOGLASS_RodrigoLuz.Domain\AUTOGLASS_RodrigoLuz.Domain.csproj", "{C90DF313-B910-4319-91CC-B6F368BE14CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AUTOGLASS_RodrigoLuz.Application", "AUTOGLASS_RodrigoLuz.Application\AUTOGLASS_RodrigoLuz.Application.csproj", "{49C9E0DB-BFE2-49EB-92E6-7AA3722A6234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AUTOGLASS_RodrigoLuz.Infra", "AUTOGLASS_RodrigoLuz.Infra\AUTOGLASS_RodrigoLuz.Infra.csproj", "{3319C32F-24F0-4EA9-A3B0-B60E062264C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AUTOGLASS_RodrigoLuz.Tests", "AUTOGLASS_RodrigoLuz.Tests\AUTOGLASS_RodrigoLuz.Tests.csproj", "{FE452E2B-CFB2-4D78-8503-4745EC48AB0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26FA0838-BD42-46C3-B4DE-DB018C0039B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26FA0838-BD42-46C3-B4DE-DB018C0039B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26FA0838-BD42-46C3-B4DE-DB018C0039B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26FA0838-BD42-46C3-B4DE-DB018C0039B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C90DF313-B910-4319-91CC-B6F368BE14CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90DF313-B910-4319-91CC-B6F368BE14CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90DF313-B910-4319-91CC-B6F368BE14CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90DF313-B910-4319-91CC-B6F368BE14CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C9E0DB-BFE2-49EB-92E6-7AA3722A6234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C9E0DB-BFE2-49EB-92E6-7AA3722A6234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C9E0DB-BFE2-49EB-92E6-7AA3722A6234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C9E0DB-BFE2-49EB-92E6-7AA3722A6234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3319C32F-24F0-4EA9-A3B0-B60E062264C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3319C32F-24F0-4EA9-A3B0-B60E062264C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3319C32F-24F0-4EA9-A3B0-B60E062264C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3319C32F-24F0-4EA9-A3B0-B60E062264C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE452E2B-CFB2-4D78-8503-4745EC48AB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE452E2B-CFB2-4D78-8503-4745EC48AB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE452E2B-CFB2-4D78-8503-4745EC48AB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE452E2B-CFB2-4D78-8503-4745EC48AB0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB12FD43-3B21-4F94-90D3-EB1BA828CCB0}
+	EndGlobalSection
+EndGlobal
