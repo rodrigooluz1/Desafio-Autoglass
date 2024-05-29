@@ -1,6 +1,5 @@
 ﻿using System;
 using AUTOGLASS_RodrigoLuz.Domain.Entities.Util;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace AUTOGLASS_RodrigoLuz.Domain.Entities
 {

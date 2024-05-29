@@ -46,11 +46,14 @@ namespace AUTOGLASS_RodrigoLuz.Tests.Services
         }
 
 
-        [Fact]
-        public async Task InsereProduto_ValidaDataFabricacao_Test()
+        [Theory]
+        [InlineData("2027-05-28", "2026-05-28")] 
+        [InlineData("2023-05-28", "2023-05-28")] 
+        public async Task InsereProduto_ValidaDataFabricacao_Test(DateTime dataFabricacao, DateTime dataValidade)
         {
             var msgErro = "A data de fabricação não pode ser maior ou igual a data de validade";
-            produtoDto.DataFabricacao = DateTime.Now.AddYears(3);
+            produtoDto.DataFabricacao = dataFabricacao;
+            produtoDto.DataValidade = dataValidade;
 
             _produtoService = new ProdutoService(_mapper.Object, _produtoRepository.Object);
 

@@ -1,13 +1,41 @@
 ﻿<Properties StartupConfiguration="{26FA0838-BD42-46C3-B4DE-DB018C0039B8}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/katiafrancabricloud.com/Documents/RODRIGO/PROJETOS_DEV/TESTES-EMPREGO/AUTOGLASS/Desafio-Autoglass/AUTOGLASS_RodrigoLuz.Infra/Repositories/ProdutoRepository.cs" relfile="AUTOGLASS_RodrigoLuz.Infra/Repositories/ProdutoRepository.cs" line="22" column="1" />
+      <Breakpoint file="/Users/katiafrancabricloud.com/Documents/RODRIGO/PROJETOS_DEV/TESTES-EMPREGO/AUTOGLASS/Desafio-Autoglass/AUTOGLASS_RodrigoLuz.Application/Services/ProdutoService.cs" relfile="AUTOGLASS_RodrigoLuz.Application/Services/ProdutoService.cs" line="26" column="1" />
+      <Breakpoint file="/Users/katiafrancabricloud.com/Documents/RODRIGO/PROJETOS_DEV/TESTES-EMPREGO/AUTOGLASS/Desafio-Autoglass/AUTOGLASS_RodrigoLuz.Application/Services/ProdutoService.cs" relfile="AUTOGLASS_RodrigoLuz.Application/Services/ProdutoService.cs" line="120" column="1" />
+      <Breakpoint file="/Users/katiafrancabricloud.com/Documents/RODRIGO/PROJETOS_DEV/TESTES-EMPREGO/AUTOGLASS/Desafio-Autoglass/AUTOGLASS_RodrigoLuz.Application/Services/ProdutoService.cs" relfile="AUTOGLASS_RodrigoLuz.Application/Services/ProdutoService.cs" line="150" column="1" />
+      <Breakpoint file="/Users/katiafrancabricloud.com/Documents/RODRIGO/PROJETOS_DEV/TESTES-EMPREGO/AUTOGLASS/Desafio-Autoglass/AUTOGLASS_RodrigoLuz.API/Controllers/ProdutoController.cs" relfile="AUTOGLASS_RodrigoLuz.API/Controllers/ProdutoController.cs" line="48" column="1" />
+      <Breakpoint file="/Users/katiafrancabricloud.com/Documents/RODRIGO/PROJETOS_DEV/TESTES-EMPREGO/AUTOGLASS/Desafio-Autoglass/AUTOGLASS_RodrigoLuz.API/Controllers/ProdutoController.cs" relfile="AUTOGLASS_RodrigoLuz.API/Controllers/ProdutoController.cs" line="56" column="1" />
+      <Breakpoint file="/Users/katiafrancabricloud.com/Documents/RODRIGO/PROJETOS_DEV/TESTES-EMPREGO/AUTOGLASS/Desafio-Autoglass/AUTOGLASS_RodrigoLuz.API/Controllers/ProdutoController.cs" relfile="AUTOGLASS_RodrigoLuz.API/Controllers/ProdutoController.cs" line="25" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="AUTOGLASS_RodrigoLuz.API/appsettings.Development.json">
+    <Files>
+      <File FileName="AUTOGLASS_RodrigoLuz.Domain/Entities/Produto.cs" Line="13" Column="13" />
+      <File FileName="AUTOGLASS_RodrigoLuz.Domain/Entities/Fornecedor.cs" Line="1" Column="1" />
+      <File FileName="AUTOGLASS_RodrigoLuz.Domain/Mappers/EntityToDtoMapping.cs" Line="16" Column="1" />
+      <File FileName="AUTOGLASS_RodrigoLuz.Domain/Interfaces/Services/IProdutoService.cs" Line="1" Column="1" />
+      <File FileName="AUTOGLASS_RodrigoLuz.Domain/Interfaces/Repositories/IProdutoRepository.cs" Line="1" Column="1" />
+      <File FileName="AUTOGLASS_RodrigoLuz.API/Controllers/ProdutoController.cs" Line="57" Column="1" />
+      <File FileName="AUTOGLASS_RodrigoLuz.API/Startup.cs" Line="44" Column="61" />
+      <File FileName="AUTOGLASS_RodrigoLuz.Infra/Repositories/ProdutoRepository.cs" Line="26" Column="1" />
+      <File FileName="AUTOGLASS_RodrigoLuz.Infra/Mapping/ProdutoMapping.cs" Line="27" Column="51" />
+      <File FileName="AUTOGLASS_RodrigoLuz.Application/Services/ProdutoService.cs" Line="168" Column="1" />
+      <File FileName="AUTOGLASS_RodrigoLuz.Tests/Services/ProdutoServiceRecuperaTests.cs" Line="67" Column="60" />
+      <File FileName="AUTOGLASS_RodrigoLuz.Tests/Services/ProdutoServiceInsereTests.cs" Line="47" Column="1" />
+      <File FileName="AUTOGLASS_RodrigoLuz.API/appsettings.Development.json" Line="6" Column="18" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="AUTOGLASS_RodrigoLuz" expanded="True" selected="True" />
+          <Node name="AUTOGLASS_RodrigoLuz">
+            <Node name="AUTOGLASS_RodrigoLuz.API">
+              <Node name="Controllers" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
